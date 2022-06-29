@@ -8,3 +8,7 @@ The first is the server, on the server itself created via the Hapi.server() meth
 In order for the web server to store books, it is necessary to provide a route with the path books and the 'POST' method. To be able to delete a book, a 'DELETE' method is needed. To be able to edit a book, you need the 'PUT' method. To be able to display the book, use the 'GET' method with the getAllBookHandler handler. Then to be able to make changes to the book using the 'GET' method with the path /books/{bookId} with the getBookByIdHandler handler.
 
 ## Handler <br>
+Handler is a to handle requests. Each route specification has its own handler, so the code will be easier to manage.
+
+## Books
+Books.js is an array that serves to hold objects in books.
